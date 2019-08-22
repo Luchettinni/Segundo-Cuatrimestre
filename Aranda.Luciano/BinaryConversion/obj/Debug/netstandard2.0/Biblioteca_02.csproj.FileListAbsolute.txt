@@ -1,0 +1,9 @@
+C:\Users\Apyr\Desktop\Aranda.Luciano\Biblioteca_02\bin\Debug\netstandard2.0\Biblioteca_02.deps.json
+C:\Users\Apyr\Desktop\Aranda.Luciano\Biblioteca_02\bin\Debug\netstandard2.0\Biblioteca_02.dll
+C:\Users\Apyr\Desktop\Aranda.Luciano\Biblioteca_02\bin\Debug\netstandard2.0\Biblioteca_02.pdb
+C:\Users\Apyr\Desktop\Aranda.Luciano\Biblioteca_02\obj\Debug\netstandard2.0\Biblioteca_02.csprojAssemblyReference.cache
+C:\Users\Apyr\Desktop\Aranda.Luciano\Biblioteca_02\obj\Debug\netstandard2.0\Biblioteca_02.csproj.CoreCompileInputs.cache
+C:\Users\Apyr\Desktop\Aranda.Luciano\Biblioteca_02\obj\Debug\netstandard2.0\Biblioteca_02.AssemblyInfoInputs.cache
+C:\Users\Apyr\Desktop\Aranda.Luciano\Biblioteca_02\obj\Debug\netstandard2.0\Biblioteca_02.AssemblyInfo.cs
+C:\Users\Apyr\Desktop\Aranda.Luciano\Biblioteca_02\obj\Debug\netstandard2.0\Biblioteca_02.dll
+C:\Users\Apyr\Desktop\Aranda.Luciano\Biblioteca_02\obj\Debug\netstandard2.0\Biblioteca_02.pdb

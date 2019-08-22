@@ -1,0 +1,9 @@
+C:\Users\Apyr\Desktop\Aranda.Luciano\ConversorBinario\bin\Debug\netstandard2.0\ConversorBinario.deps.json
+C:\Users\Apyr\Desktop\Aranda.Luciano\ConversorBinario\bin\Debug\netstandard2.0\ConversorBinario.dll
+C:\Users\Apyr\Desktop\Aranda.Luciano\ConversorBinario\bin\Debug\netstandard2.0\ConversorBinario.pdb
+C:\Users\Apyr\Desktop\Aranda.Luciano\ConversorBinario\obj\Debug\netstandard2.0\ConversorBinario.csprojAssemblyReference.cache
+C:\Users\Apyr\Desktop\Aranda.Luciano\ConversorBinario\obj\Debug\netstandard2.0\ConversorBinario.csproj.CoreCompileInputs.cache
+C:\Users\Apyr\Desktop\Aranda.Luciano\ConversorBinario\obj\Debug\netstandard2.0\ConversorBinario.AssemblyInfoInputs.cache
+C:\Users\Apyr\Desktop\Aranda.Luciano\ConversorBinario\obj\Debug\netstandard2.0\ConversorBinario.AssemblyInfo.cs
+C:\Users\Apyr\Desktop\Aranda.Luciano\ConversorBinario\obj\Debug\netstandard2.0\ConversorBinario.dll
+C:\Users\Apyr\Desktop\Aranda.Luciano\ConversorBinario\obj\Debug\netstandard2.0\ConversorBinario.pdb

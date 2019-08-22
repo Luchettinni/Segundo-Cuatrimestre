@@ -1,0 +1,13 @@
+D:\VisualStudio\Aranda.Luciano\Ejercicio_01\bin\Debug\Ejercicio_01.exe.config
+D:\VisualStudio\Aranda.Luciano\Ejercicio_01\bin\Debug\Ejercicio_01.exe
+D:\VisualStudio\Aranda.Luciano\Ejercicio_01\bin\Debug\Ejercicio_01.pdb
+D:\VisualStudio\Aranda.Luciano\Ejercicio_01\obj\Debug\Ejercicio_01.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Aranda.Luciano\Ejercicio_01\obj\Debug\Ejercicio_01.exe
+D:\VisualStudio\Aranda.Luciano\Ejercicio_01\obj\Debug\Ejercicio_01.pdb
+D:\VisualStudio\Aranda.Luciano\Ejercicio_01\obj\Debug\Ejercicio_01.csprojAssemblyReference.cache
+C:\Users\Apyr\Desktop\Aranda.Luciano\Ejercicio_01\bin\Debug\Ejercicio_01.exe.config
+C:\Users\Apyr\Desktop\Aranda.Luciano\Ejercicio_01\bin\Debug\Ejercicio_01.exe
+C:\Users\Apyr\Desktop\Aranda.Luciano\Ejercicio_01\bin\Debug\Ejercicio_01.pdb
+C:\Users\Apyr\Desktop\Aranda.Luciano\Ejercicio_01\obj\Debug\Ejercicio_01.csproj.CoreCompileInputs.cache
+C:\Users\Apyr\Desktop\Aranda.Luciano\Ejercicio_01\obj\Debug\Ejercicio_01.exe
+C:\Users\Apyr\Desktop\Aranda.Luciano\Ejercicio_01\obj\Debug\Ejercicio_01.pdb
