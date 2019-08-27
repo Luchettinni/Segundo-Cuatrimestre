@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conversor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,10 +51,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConversorBinario\ConversorBinario.csproj">
-      <Project>{d6de254e-4e8d-4405-897a-23ca5d3816d6}</Project>
-      <Name>ConversorBinario</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Lucchettinni\Lucchettinni.csproj">
       <Project>{68dd8e89-5404-4703-9af8-0e791e8ff3fb}</Project>
       <Name>Lucchettinni</Name>
