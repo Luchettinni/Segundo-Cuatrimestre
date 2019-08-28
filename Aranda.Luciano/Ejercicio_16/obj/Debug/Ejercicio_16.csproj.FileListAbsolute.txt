@@ -104,3 +104,4 @@ C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_16\obj\Deb
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_16\obj\Debug\Ejercicio_16.csproj.CopyComplete
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_16\obj\Debug\Ejercicio_16.exe
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_16\obj\Debug\Ejercicio_16.pdb
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_16\obj\Debug\Ejercicio_16.csprojAssemblyReference.cache
