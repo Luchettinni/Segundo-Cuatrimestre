@@ -208,9 +208,9 @@ C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\bin\Deb
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\bin\Debug\Lucchettinni.dll
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\bin\Debug\Lucchettinni.pdb
-C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\obj\Debug\Ejercicio_13.csprojAssemblyReference.cache
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\obj\Debug\Ejercicio_13.exe.config
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\obj\Debug\Ejercicio_13.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\obj\Debug\Ejercicio_13.csproj.CopyComplete
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\obj\Debug\Ejercicio_13.exe
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\obj\Debug\Ejercicio_13.pdb
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\obj\Debug\Ejercicio_13.csprojAssemblyReference.cache

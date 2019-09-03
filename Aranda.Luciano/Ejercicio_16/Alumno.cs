@@ -8,9 +8,9 @@ namespace Ejercicio_16
 {
     class Alumno
     {
-        byte nota1;
+        /*byte nota1;
         byte nota2;
-        float notaFinal;
+        float notaFinal;*/
         string apellido;
         string nombre;
         static int legajo;

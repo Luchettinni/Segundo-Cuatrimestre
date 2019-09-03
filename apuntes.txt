@@ -1,0 +1,20 @@
+sobrecarga de operadores: no esta disponible en todos los lenguajes, por ahora solo c#.
+
+que es: es tomar un operador y poder cambiar su funcionamiento (como el funcionamiento de los operadores arigmeticos).
+
+2 tipos de sobrecarga... los binarios (2 parametros) y unarios (1 parametros) (como el "++") y de comparacion
+
+la sintaxis de la sobrecarga de operadores:  [Modificadores de visibilidad][STATIC] [Tipo retorno] [Nombre del metodo] [Parametros] { Codigo. }
+
+					  //
+					  //
+					  // [Modificadores de visibilidad]: (es opcional) si no lo coloco asume que es private
+					  // [Son estaticos (siempre)]
+					  // [Tipo retorno]: depende lo que necesito que me devuelva (lo que yo necesite, cualquier tipo de retorno)
+					  // [Nombre del metodo]: tiene que ser el simbolo utilizado para un operador binario o unario
+					  // [Parametros]: recibe al menos 1 tipo de dato, y como mucho recibe 2 (tipo [,tipo])
+					  // (al menos el tipo, o [tipo] o el tipo de retorno, tiene que ser de tipo "cosa" (nombre de la clase o tipo de la clase) ).
+					  //
+					  // 
+
+el enumerado es uno de los elementos que puede convivir en un namespace.

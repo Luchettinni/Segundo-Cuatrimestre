@@ -18,7 +18,6 @@ C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\obj\Debug
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\bin\Debug\netstandard2.0\Lucchettinni.deps.json
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\bin\Debug\netstandard2.0\Lucchettinni.dll
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\bin\Debug\netstandard2.0\Lucchettinni.pdb
-C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\obj\Debug\netstandard2.0\Lucchettinni.csprojAssemblyReference.cache
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\obj\Debug\netstandard2.0\Lucchettinni.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\obj\Debug\netstandard2.0\Lucchettinni.AssemblyInfoInputs.cache
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\obj\Debug\netstandard2.0\Lucchettinni.AssemblyInfo.cs
