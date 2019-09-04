@@ -23,3 +23,4 @@ C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\obj\Deb
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\obj\Debug\netstandard2.0\Lucchettinni.AssemblyInfo.cs
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\obj\Debug\netstandard2.0\Lucchettinni.dll
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\obj\Debug\netstandard2.0\Lucchettinni.pdb
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Lucchettinni\obj\Debug\netstandard2.0\Lucchettinni.csprojAssemblyReference.cache
