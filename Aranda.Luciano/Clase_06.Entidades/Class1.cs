@@ -21,7 +21,7 @@ namespace Clase_06.Entidades
 
         private string Mostrar()
         {
-            return "Color: " + this.color + " matriz: " + this.marca + " cantidad: " + this.cantidad;
+            return "Color: " + this.color + " / Marca: " + this.marca + " / cantidad: " + this.cantidad;
         }
 
         public static implicit operator string(Tempera tempera)
