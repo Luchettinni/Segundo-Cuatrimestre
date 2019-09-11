@@ -12,3 +12,17 @@ C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\bin\Debug\C
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\bin\Debug\Clase_06.Entidades.pdb
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\obj\Debug\Clase_08.csproj.CopyComplete
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\obj\Debug\Clase_08.frmTempera.resources
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\bin\Debug\Clase_08.exe.config
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\bin\Debug\Clase_08.exe
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\bin\Debug\Clase_08.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\bin\Debug\Clase_06.Entidades.dll
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\bin\Debug\Clase_06.Entidades.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\obj\Debug\Clase_08.csprojAssemblyReference.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\obj\Debug\Clase_08.frmTempera.resources
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\obj\Debug\Clase_08.Kevin.resources
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\obj\Debug\Clase_08.Properties.Resources.resources
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\obj\Debug\Clase_08.csproj.GenerateResource.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\obj\Debug\Clase_08.csproj.CoreCompileInputs.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\obj\Debug\Clase_08.csproj.CopyComplete
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\obj\Debug\Clase_08.exe
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_08\obj\Debug\Clase_08.pdb

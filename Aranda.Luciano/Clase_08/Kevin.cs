@@ -25,17 +25,21 @@ namespace Clase_08
 
         private void crearNuevaPaletaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            lbxList1.Items.Clear();
             gpbPaleta.Visible = true;
+
         }
 
         private void temperasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmTempera kevin = new frmTempera();
             kevin.ShowDialog();
-
-            lbxList1.Items.Add( (string) kevin.MiTempera );
+            
+            if ( kevin.DialogResult == DialogResult.OK )
+            {
+                lbxList1.Items.Add((string)kevin.MiTempera);
+            }
+            
         }
-
-        
     }
 }

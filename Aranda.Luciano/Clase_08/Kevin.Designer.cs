@@ -40,6 +40,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.administraciónToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -50,16 +51,20 @@
             // 
             // administraciónToolStripMenuItem
             // 
+            this.administraciónToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.administraciónToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.crearNuevaPaletaToolStripMenuItem});
+            this.administraciónToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.administraciónToolStripMenuItem.Name = "administraciónToolStripMenuItem";
             this.administraciónToolStripMenuItem.Size = new System.Drawing.Size(100, 20);
             this.administraciónToolStripMenuItem.Text = "Administración";
             // 
             // crearNuevaPaletaToolStripMenuItem
             // 
+            this.crearNuevaPaletaToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.crearNuevaPaletaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.temperasToolStripMenuItem});
+            this.crearNuevaPaletaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.crearNuevaPaletaToolStripMenuItem.Name = "crearNuevaPaletaToolStripMenuItem";
             this.crearNuevaPaletaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.crearNuevaPaletaToolStripMenuItem.Text = "Crear nueva paleta";
@@ -68,6 +73,8 @@
             // temperasToolStripMenuItem
             // 
             this.temperasToolStripMenuItem.AutoSize = false;
+            this.temperasToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.temperasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.temperasToolStripMenuItem.Name = "temperasToolStripMenuItem";
             this.temperasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.temperasToolStripMenuItem.Text = "Temperas";
@@ -90,15 +97,16 @@
             // 
             this.lbxList1.AccessibleName = "";
             this.lbxList1.FormattingEnabled = true;
-            this.lbxList1.Location = new System.Drawing.Point(15, 19);
+            this.lbxList1.Location = new System.Drawing.Point(12, 19);
             this.lbxList1.Name = "lbxList1";
-            this.lbxList1.Size = new System.Drawing.Size(569, 355);
+            this.lbxList1.Size = new System.Drawing.Size(577, 355);
             this.lbxList1.TabIndex = 0;
             // 
             // Kevin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(624, 442);
             this.Controls.Add(this.gpbPaleta);
             this.Controls.Add(this.menuStrip1);

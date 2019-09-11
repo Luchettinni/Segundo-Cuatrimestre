@@ -44,13 +44,13 @@ namespace Clase_08
 
             ConsoleColor color = (ConsoleColor) this.comboBox1.SelectedItem;
             tempera = new Tempera(color, txtMarca.Text,  entero);
-            MessageBox.Show(tempera , "ADVERTENCIA",  MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            this.DialogResult = DialogResult.OK;
             
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.DialogResult = DialogResult.Cancel;
         }
     }
 }
