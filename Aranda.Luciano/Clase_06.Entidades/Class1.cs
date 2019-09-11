@@ -12,6 +12,10 @@ namespace Clase_06.Entidades
         private string marca;
         private int cantidad;
 
+        public int getCantidad { get { return this.cantidad; } }
+        public string getMarca { get { return this.marca; } }
+        public ConsoleColor getColor { get { return this.color; } }
+
         public Tempera(ConsoleColor setColor, string setMarca, int setCantidad)
         {
             color = setColor;
@@ -21,12 +25,19 @@ namespace Clase_06.Entidades
 
         private string Mostrar()
         {
-            return "Color: " + this.color + " / Marca: " + this.marca + " / cantidad: " + this.cantidad;
+                return "Color: " + this.color + " / Marca: " + this.marca + " / cantidad: " + this.cantidad;
         }
 
         public static implicit operator string(Tempera tempera)
         {
-            return tempera.Mostrar();
+            if ( !Object.Equals(tempera, null) )
+            {
+                return tempera.Mostrar();
+            }
+            else
+            {
+                return "";
+            }
         }
 
         public static bool operator ==(Tempera temperaA, Tempera temperaB)
@@ -78,6 +89,19 @@ namespace Clase_06.Entidades
 
         private Paleta() : this(5) { }
 
+        public int getLenght
+        {
+            get { return this.cantidadMaximaDeColores; }
+        }
+
+
+        public Tempera this[int index]
+        {
+            get { return this.colores[index];  }
+
+            set { this.colores[index] = value; }
+        }
+
         private Paleta(int setCantidad)
         {
             colores = new Tempera[setCantidad];
@@ -95,7 +119,11 @@ namespace Clase_06.Entidades
 
             for ( int i = 0; i < this.cantidadMaximaDeColores; i++ )
             {
-                 retorno = string.Concat( retorno, this.colores[i] + " \n" );
+                if ( !Object.Equals( this.colores[i], null) )
+                {
+                    retorno = string.Concat(retorno, this.colores[i] + "  // \n");
+                }
+                 
             }
             return retorno;
         }
@@ -115,7 +143,7 @@ namespace Clase_06.Entidades
                 {
                     i = k;
                     break;
-                }
+                } 
             }
             
             if ( !Object.Equals(i, -1) )

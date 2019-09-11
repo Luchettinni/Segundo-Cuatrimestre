@@ -16,7 +16,7 @@ namespace Clase_06
             Tempera temperaRoja = new Tempera(ConsoleColor.Red, "la salada", 50);
 
             Paleta paleta = 2;
-
+            
             paleta = paleta + temperaAzul;
             paleta = paleta + temperaRoja;
             LuccheTools.MessageColoured( temperaAzul , ConsoleColor.Gray);

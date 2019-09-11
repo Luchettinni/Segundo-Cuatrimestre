@@ -32,6 +32,21 @@ namespace Clase_08
             this.comboBox1.SelectedItem = ConsoleColor.Black;
         }
 
+        public frmTempera( Tempera t )
+        {
+            InitializeComponent();
+
+            this.txtCantidad.Text = t.getCantidad.ToString();
+            this.txtMarca.Text = t.getMarca;
+            this.comboBox1.SelectedItem = t.getColor;
+
+            foreach (ConsoleColor i in Enum.GetValues(typeof(ConsoleColor)))
+            {
+                this.comboBox1.Items.Add(i);
+            }
+            
+        }
+
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             int entero;

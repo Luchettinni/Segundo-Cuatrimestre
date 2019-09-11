@@ -34,6 +34,9 @@
             this.temperasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gpbPaleta = new System.Windows.Forms.GroupBox();
             this.lbxList1 = new System.Windows.Forms.ListBox();
+            this.btnCargarTempera = new System.Windows.Forms.Button();
+            this.btnPintar = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.gpbPaleta.SuspendLayout();
             this.SuspendLayout();
@@ -66,7 +69,7 @@
             this.temperasToolStripMenuItem});
             this.crearNuevaPaletaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.crearNuevaPaletaToolStripMenuItem.Name = "crearNuevaPaletaToolStripMenuItem";
-            this.crearNuevaPaletaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.crearNuevaPaletaToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.crearNuevaPaletaToolStripMenuItem.Text = "Crear nueva paleta";
             this.crearNuevaPaletaToolStripMenuItem.Click += new System.EventHandler(this.crearNuevaPaletaToolStripMenuItem_Click);
             // 
@@ -82,12 +85,16 @@
             // 
             // gpbPaleta
             // 
+            this.gpbPaleta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.gpbPaleta.AutoSize = true;
+            this.gpbPaleta.Controls.Add(this.btnModificar);
+            this.gpbPaleta.Controls.Add(this.btnPintar);
+            this.gpbPaleta.Controls.Add(this.btnCargarTempera);
             this.gpbPaleta.Controls.Add(this.lbxList1);
             this.gpbPaleta.Location = new System.Drawing.Point(12, 37);
             this.gpbPaleta.MaximumSize = new System.Drawing.Size(1366, 768);
             this.gpbPaleta.Name = "gpbPaleta";
-            this.gpbPaleta.Size = new System.Drawing.Size(600, 393);
+            this.gpbPaleta.Size = new System.Drawing.Size(600, 396);
             this.gpbPaleta.TabIndex = 1;
             this.gpbPaleta.TabStop = false;
             this.gpbPaleta.Text = "Paleta";
@@ -96,11 +103,50 @@
             // lbxList1
             // 
             this.lbxList1.AccessibleName = "";
+            this.lbxList1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lbxList1.BackColor = System.Drawing.Color.Gray;
+            this.lbxList1.ForeColor = System.Drawing.Color.White;
             this.lbxList1.FormattingEnabled = true;
-            this.lbxList1.Location = new System.Drawing.Point(12, 19);
+            this.lbxList1.Location = new System.Drawing.Point(15, 74);
             this.lbxList1.Name = "lbxList1";
-            this.lbxList1.Size = new System.Drawing.Size(577, 355);
+            this.lbxList1.Size = new System.Drawing.Size(569, 303);
             this.lbxList1.TabIndex = 0;
+            // 
+            // btnCargarTempera
+            // 
+            this.btnCargarTempera.BackColor = System.Drawing.Color.Crimson;
+            this.btnCargarTempera.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnCargarTempera.Location = new System.Drawing.Point(15, 29);
+            this.btnCargarTempera.Name = "btnCargarTempera";
+            this.btnCargarTempera.Size = new System.Drawing.Size(92, 39);
+            this.btnCargarTempera.TabIndex = 2;
+            this.btnCargarTempera.Text = "Nueva Tempera";
+            this.btnCargarTempera.UseVisualStyleBackColor = false;
+            this.btnCargarTempera.Click += new System.EventHandler(this.btnCargarTempera_Click);
+            // 
+            // btnPintar
+            // 
+            this.btnPintar.BackColor = System.Drawing.Color.Crimson;
+            this.btnPintar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnPintar.Location = new System.Drawing.Point(113, 29);
+            this.btnPintar.Name = "btnPintar";
+            this.btnPintar.Size = new System.Drawing.Size(92, 39);
+            this.btnPintar.TabIndex = 3;
+            this.btnPintar.Text = "Quitar Tempera";
+            this.btnPintar.UseVisualStyleBackColor = false;
+            this.btnPintar.Click += new System.EventHandler(this.btnPintar_Click);
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.BackColor = System.Drawing.Color.Crimson;
+            this.btnModificar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnModificar.Location = new System.Drawing.Point(211, 29);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(92, 39);
+            this.btnModificar.TabIndex = 4;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = false;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // Kevin
             // 
@@ -129,6 +175,9 @@
         private System.Windows.Forms.ToolStripMenuItem temperasToolStripMenuItem;
         private System.Windows.Forms.GroupBox gpbPaleta;
         private System.Windows.Forms.ListBox lbxList1;
+        private System.Windows.Forms.Button btnPintar;
+        private System.Windows.Forms.Button btnCargarTempera;
+        private System.Windows.Forms.Button btnModificar;
     }
 }
 
