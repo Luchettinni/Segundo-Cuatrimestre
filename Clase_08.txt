@@ -1,0 +1,38 @@
+Colecciones no genericas: alberga cualquier tipo de dato en la misma coleccion (admiten object, y retornan object)
+dentro de las no genericas, esta el 
+
+* * * tipo de coleccion "stack":
+
+LIFO = LAST IN FIRST OUT (el ultimo en entrar es el primero en salir) (stack / pila)
+este tipo de colecciones no se puede recorrer ni se le pueden hacer busquedas ni ordenamientos. (salvo que saque los elementos de la coleccion)
+
+* * * tipo de coleccion Queue (Cola) no se puede recorrer, tengo que quitar los elementos que estan antes para poder hacerlo.
+
+FIFO = first in, first out (primero en entrar es el primero en salir)
+
+* * * tipo de coleccion "ARRAYLIST"
+
+sabe ordenar tipo de datos nativos pero no otras cosas como objetos
+
+* * * HashTable
+
+sus elementos se almacenan con una clave relacionada a un valor 
+(admiten valores de tipo object tanto para las claves como para los valores)
+
+//-----------------------------------------------------------------------------------------------------------------
+
+Colecciones genericas: son colecciones que estan ligadas a un unico tipo de dato.
+
+* * * Stack <type>
+
+* * * Queue <type>
+
+* * * Lista <type> (no es mas arraylist)
+
+* * * Dictionary <type, type> ( no es mas HashTable)
+
+las 4 funcionan exactamente igual que las 4 anteriores solo que son genericas. hay que colocarles el tipo de dato (<type>).
+
+al usar colecciones no genericas es menos performante (ya que hago boxing para guardar (ejemplo) un int en un object que es mas grande)
+
+las genericas explotan en tiempo de compilacion y no ejecucion asi que son mas lindas <3 (?
