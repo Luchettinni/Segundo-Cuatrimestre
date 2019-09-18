@@ -1,0 +1,18 @@
+HERENCIA: trata de que yo pueda definir en un clase una serie de atributos, metodos, propiedades, (etc) 
+y queden implicitamente en otras clases por herencia de una clase principal
+
+//// la clase principal se le llama "clase padre" o "clase base"
+//// las que heredan son "Hijas" o "clases derivadas" 
+
+dentro de las herencias existen...
+
+1) Herencia multiple: puedo tener una clase padre, y una hija, pero la hija puede tener varios padres
+2) Herencia simple: Un padre y "X" hijos
+
+de manera implicita, las clases derivadas se pueden transofrmar en clases padre para otras clases.
+
+lo unico que no se pasa por herencia son los "constructores" el resto de los miembros 
+de la clase padre van a la clase hija.
+
+nuevo modificador de visibilidad: protected (se puede usar en clases normales, pero no tiene sentido si no es de herencia)
+tienen comportamiento doble: es como que esta publico, fuera de la relacion de herencia es privado
