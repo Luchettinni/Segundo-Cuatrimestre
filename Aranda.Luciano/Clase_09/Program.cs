@@ -36,6 +36,9 @@ namespace Clase_09
             miLibro[1] = "Cómo comenzar con C#";
             miLibro[2] = "Cómo escribir expresiones con C#";
 
+            miLibro[0] = "Alcachofa";
+            miLibro[2] = "Salamandra";
+
             miLibro[-1] = "Genero un índice erroneo";
 
             miLibro[5] = "Genero otro índice erroneo";

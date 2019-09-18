@@ -43,16 +43,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Persona.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Clase_03_Testing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lucchettinni\Lucchettinni.csproj">
-      <Project>{68dd8e89-5404-4703-9af8-0e791e8ff3fb}</Project>
-      <Name>Lucchettinni</Name>
+    <ProjectReference Include="..\..\LucheTools\LuccheTools\LuccheTools.csproj">
+      <Project>{75f9e0dc-242b-4e9a-b26f-a71393fa2786}</Project>
+      <Name>LuccheTools</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

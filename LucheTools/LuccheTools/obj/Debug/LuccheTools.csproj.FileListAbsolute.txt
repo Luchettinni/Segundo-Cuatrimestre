@@ -1,0 +1,6 @@
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools\bin\Debug\LuccheTools.dll
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools\bin\Debug\LuccheTools.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools\obj\Debug\LuccheTools.csprojAssemblyReference.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools\obj\Debug\LuccheTools.csproj.CoreCompileInputs.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools\obj\Debug\LuccheTools.dll
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools\obj\Debug\LuccheTools.pdb

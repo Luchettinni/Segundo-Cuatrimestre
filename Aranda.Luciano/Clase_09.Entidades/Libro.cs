@@ -50,20 +50,18 @@ namespace Clase_09.Entidades
             }
             set
             {
-                if ( Object.Equals(this.capitulos, null) || index > this.capitulos.Count ) // Y ESTA RANCIADA
+                if ( index == this.capitulos.Count )
                 {
                     this.capitulos.Add(value);
                 }
                 else
                 {
-                    if( index >= 0 ) // ARREGLAR ESTA RANCIADA count - 1
+                    if( index >= 0 && index <= this.capitulos.Count  )
                     {
                         this.capitulos[index]= value;
                     }
                     
                 }
-
-                //
             }
         }
 

@@ -14,7 +14,6 @@ namespace Clase_03
 
         public string Mostrar()
         {
-
             return nombre + " " + apellido + " " + dni.ToString();
         }
 

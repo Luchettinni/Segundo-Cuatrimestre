@@ -53,10 +53,6 @@
       <Project>{8e2e05a6-618e-4bb2-ace8-60ce5ffa4480}</Project>
       <Name>Clase_06.Entidades</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Lucchettinni\Lucchettinni.csproj">
-      <Project>{68dd8e89-5404-4703-9af8-0e791e8ff3fb}</Project>
-      <Name>Lucchettinni</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -97,9 +97,7 @@ C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\bin\Debug
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\bin\Debug\System.Xml.XmlSerializer.dll
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\bin\Debug\System.Xml.XPath.dll
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\bin\Debug\System.Xml.XPath.XDocument.dll
-C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\bin\Debug\ConversorBinario.dll
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\bin\Debug\Lucchettinni.dll
-C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\bin\Debug\ConversorBinario.pdb
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\bin\Debug\Lucchettinni.pdb
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\obj\Debug\Ejercicio_13.csprojAssemblyReference.cache
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Ejercicio_13\obj\Debug\Ejercicio_13.exe.config

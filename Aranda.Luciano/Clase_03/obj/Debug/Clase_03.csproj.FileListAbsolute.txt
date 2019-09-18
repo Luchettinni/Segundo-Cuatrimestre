@@ -105,3 +105,13 @@ C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\obj\Debug\C
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\obj\Debug\Clase_03.csproj.CopyComplete
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\obj\Debug\Clase_03.exe
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\obj\Debug\Clase_03.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\bin\Debug\Clase_03.exe.config
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\bin\Debug\Clase_03.exe
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\bin\Debug\Clase_03.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\obj\Debug\Clase_03.csprojAssemblyReference.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\obj\Debug\Clase_03.csproj.CoreCompileInputs.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\obj\Debug\Clase_03.csproj.CopyComplete
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\obj\Debug\Clase_03.exe
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\obj\Debug\Clase_03.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\bin\Debug\LuccheTools.dll
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_03\bin\Debug\LuccheTools.pdb
