@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Clase_05.Entidades;
-using Lucchettinni;
+//using Lucchettinni;
 
 namespace Clase_05
 {
@@ -18,8 +18,8 @@ namespace Clase_05
 
             Pluma plumita = new Pluma("tuvieja", tintita);
             b = (string)plumita;
-            LuccheTools.MessageColoured( b, ConsoleColor.Blue );
-            LuccheTools.MessagePause("Presione una tecla para continuar...");
+           /* LuccheTools.MessageColoured( b, ConsoleColor.Blue );
+            LuccheTools.MessagePause("Presione una tecla para continuar...");*/
         }
     }
 }

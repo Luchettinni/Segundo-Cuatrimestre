@@ -98,9 +98,7 @@ C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05\bin\Debug\S
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05\bin\Debug\System.Xml.XPath.dll
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05\bin\Debug\Clase_05.Entidades.dll
-C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05\bin\Debug\Lucchettinni.dll
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05\bin\Debug\Clase_05.Entidades.pdb
-C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05\bin\Debug\Lucchettinni.pdb
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05\obj\Debug\Clase_05.csprojAssemblyReference.cache
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05\obj\Debug\Clase_05.exe.config
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05\obj\Debug\Clase_05.csproj.CoreCompileInputs.cache

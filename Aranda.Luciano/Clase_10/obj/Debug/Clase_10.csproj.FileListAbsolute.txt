@@ -1,0 +1,12 @@
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10\bin\Debug\Clase_10.exe.config
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10\bin\Debug\Clase_10.exe
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10\bin\Debug\Clase_10.pdb
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10\bin\Debug\Clase_10.Entidades.dll
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10\bin\Debug\LuccheTools.dll
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10\bin\Debug\LuccheTools.pdb
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10\bin\Debug\Clase_10.Entidades.pdb
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10\obj\Debug\Clase_10.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10\obj\Debug\Clase_10.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10\obj\Debug\Clase_10.csproj.CopyComplete
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10\obj\Debug\Clase_10.exe
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10\obj\Debug\Clase_10.pdb

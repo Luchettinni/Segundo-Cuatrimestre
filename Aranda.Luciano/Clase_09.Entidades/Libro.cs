@@ -60,7 +60,6 @@ namespace Clase_09.Entidades
                     {
                         this.capitulos[index]= value;
                     }
-                    
                 }
             }
         }

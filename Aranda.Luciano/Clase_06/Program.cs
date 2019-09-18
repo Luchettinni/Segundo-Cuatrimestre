@@ -19,12 +19,12 @@ namespace Clase_06
             
             paleta = paleta + temperaAzul;
             paleta = paleta + temperaRoja;
-            LuccheTools.MessageColoured( temperaAzul , ConsoleColor.Gray);
+            /*LuccheTools.MessageColoured( temperaAzul , ConsoleColor.Gray);
             LuccheTools.MessagePause("presione una tecla para continuar...");
             LuccheTools.MessageColoured("\n\nA continuacion, se creara una paleta de colores.", ConsoleColor.Gray);
             LuccheTools.MessagePause("presione una tecla para continuar...\n\n");
             LuccheTools.MessageColoured( paleta, ConsoleColor.Green);
-            LuccheTools.MessagePause("presione una tecla para continuar...");
+            LuccheTools.MessagePause("presione una tecla para continuar...");*/
 
             // hacer verificaciones de si son null las cosas
             // hacer un "buscar lugar libre"
