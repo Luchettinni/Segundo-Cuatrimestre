@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SortingTools.cs" />
     <Compile Include="ValidationTools.cs" />
     <Compile Include="ConsoleTools.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
