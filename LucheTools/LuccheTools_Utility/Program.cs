@@ -16,33 +16,39 @@ namespace LuccheTools_Utility
             string[] manualOptions = { "1) ConsoleTools", "2) SortingTools ", "3) ValidationTools", };
             string inputAwait = "Ingrese el numero de la opcion que desea ejecutar: ";
             string image = "|osy+-.+ss/.`          `:++hdMMs/++os//+o++...-:+.`  -. `.  `|/`-   ``.--.```. ``/shNMMMMMMMNNNNNNMNh+```  `...:.     -:--|:o/-`..:/so+:`    sNMMMMMMNNMNNNNNNNNNNNmy+:o/+o++-        `|`              `.sMMMMMMMNNNNNNNNNNNNNNNNNMh+`    ......-odm|y::+o/.`.//.`./yyMMMMMMMMNNNNNNNNNNNNNNNMMMMMN/-:+o/..`.+/+s|hyymd+/ohhhsysssmMMMMMMMNNNNNNNNNNNNNNNNNNNMMN/-+//o++:+hmdh|NNNNmmNmdmmhhyydNMMMMMMMNNNNNNNNNNNNNNNNNNNNMNdhmNNNMMMNNmNN|+dyyyhhyhhhhyyhMMMMMMMMMNNNNNNNNNNNNNNNNNNNNNMhy+oshhydyoo++|NNMmdhysoyhsosmMMMmyyyyyyyyy+++++++++oMNNNNNNMNs/.--...```  |yyyyyyyhhmNmmmNMMMd/////////`        -MNNNNNNNd     `  `` ``|mdNmmdddmmmNyohMMMd////////:         -MNNNNNNNd`--`-..-.:..`|MMMMmNNNdddmmhdMMMd////////-         -MNNNNMMNmo:---..--```.|NNdhddmNNNNmhdNdhMd+++++///-     ````-MNNNNNsdN+-`.`````  ``|mNmdmMMMMMMMNmNmymddMMMNmh+-  /hdMMMN/MNNNNN/so:.`.. ``     |NMMMMMMMMMMNo-oMNmdyNMN0MMy-  MMM0MMs:MNNNMy++:``--:::--.-..|MMMMMNMNNNMMMNmMhmd///ssss/-  .:::`  -MMMMhydmhhdmmNNyhmddyy|NNNNNmdddmmdNmdNMMd+hs/////-      `o:-MhNsoooo/+::/os+/-.-/:|NdyhyhdNNMMMMMMmdNd+ys/////-      `+--M:.`` `:.  ````` `````|mmNNMNNmhsss/-.:/Md+///////-         :Md.     ````..--:.``  |dyss/-..::--.` +NMMmho/////:      `/yNNNN:``   ``..``..::///|```.:+:++--``.yMMMMMMMNyo///.  `:hNMMMmNMNssso+ossshsyNMNmhh|:.``   ```  .+hhydMMMMmNNmh+-:yysMMMNmNdms+:+sys+yshmmho````|```` ``....hMNmMMNNNNMhdmmmNy+:--yNdmmdhNMNhddmmss+:/+s+++/o|.-//:.````-MNNMNNMNNMmyydhyh:----oMmmmmhmMmNMNddNNmmmmdmdddm|/:``..``./mMNNNNNNNmMmyyhmyy-----oNmNmNmNmdmNMNh+`-:/osNNNmM|//++yhddddMMMNNNNmNNNMdyhmyy-----dmmmNNdymdhMNhy`  /NmmNMhdm|/ymNNhdmmMMMMNMMMNmNMNNNhmyy----/MhhdmhdmmNNNMMMs/.:hyss+ +d|ydNdddNMNNNNMMNNNNdoNNNNNhyy---/NddmmdhNNMmdhNmhmmMhhh:``  .|mNmNNMNNNNMMNNNMMM.:MNNNMNhs:-sNdNNNh-yNNmdNNdmmmmddmmmNmo  |NNMMMMMMNNNMNNNNNo.hNNNMNMMhohNmdmdmm+.sdhmmNmdNdmmdNhydNN- ";
+            int opcion = 1;
 
             LuccheLogo(image, 61);
             LT.ConsoleTools.PausaConMensaje("");
 
-            switch ( LT.ConsoleTools.GenericMenu(" LuccheTools Utility App ", " Main Menu ", opciones, inputAwait) )
+            do
             {
-                case 1:
-                    {
-                        LT.ConsoleTools.GenericMenu("LuccheTools Utility App", "./Manual", manualOptions, inputAwait);
-                        break;
-                    }
+                switch (LT.ConsoleTools.GenericMenu("LuccheTools Utility App", " Main Menu ", opciones, inputAwait))
+                {
+                    case 1:
+                        {
+                            LT.ConsoleTools.GenericMenu("LuccheTools Utility App", " Main Menu // Manual", manualOptions, inputAwait);
+                            break;
+                        }
 
-                case 2:
-                    {
-                        break;
-                    }
+                    case 2:
+                        {
+                            break;
+                        }
 
-                case 3:
-                    {
-                        break;
-                    }
+                    case 3:
+                        {
+                            opcion = -1;
+                            break;
+                        }
 
-                default:
-                    {
-                        break;
-                    }
-            }
+                    default:
+                        {
+                            break;
+                        }
+                }
+            } while (opcion != -1);
+            
         }
 
         public static void LuccheLogo(string asciiImage, int maxWidth)
