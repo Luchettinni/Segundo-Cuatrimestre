@@ -23,7 +23,7 @@ namespace Clase_10.Entidades
 
             foreach( Alumno alumno in c.alumnos )
             {
-                if ( a == alumno )
+                if ( Object.Equals( a, alumno ) )
                 {
                     retorno = true;
                     break;
@@ -43,6 +43,43 @@ namespace Clase_10.Entidades
             }
 
             return retorno;
+        }
+
+        public static bool operator +(Catedra c, Alumno a)
+        {
+            bool retorno = true;
+
+            if ( c == a )
+            {
+                retorno = false;
+            }
+            else
+            {
+                c.alumnos.Add(a);
+            }
+
+            return retorno;
+        }
+
+        public static bool operator -(Catedra c, Alumno a)
+        {
+            bool retorno = true;
+
+            if ( !(c + a) )
+            {
+                c.alumnos.RemoveAt(a|c);
+            }
+            else
+            {
+                retorno = false;
+            }
+
+            return retorno;
+        }
+
+        public static int operator |(Alumno a, Catedra c)
+        {
+            return c.alumnos.IndexOf(a);
         }
     }
 }

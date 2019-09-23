@@ -46,5 +46,11 @@
     <Compile Include="Enumerado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LucheTools\LuccheTools\LuccheTools.csproj">
+      <Project>{75f9e0dc-242b-4e9a-b26f-a71393fa2786}</Project>
+      <Name>LuccheTools</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

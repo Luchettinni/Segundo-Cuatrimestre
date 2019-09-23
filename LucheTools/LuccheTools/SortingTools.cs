@@ -19,32 +19,40 @@ namespace LuccheTools
         /// <param name="cadenaOrigen">Es la cadena que sera comparada con otra, el retorno se relaciona con esta estrictamente</param>
         /// <param name="cadenaObjetivo">La cadena "Original" se comparará contra esta</param>
         /// <returns>"1" = Cadena "Origen" es mayor a cadena "Objetivo". "-1" = es menor. "0" = son iguales. </returns>
-        public static int Comparar(string cadenaOrigen, string cadenaObjetivo)
+        public static int CompararLetras(string cadenaOrigen, string cadenaObjetivo)
         {
-            int retorno = -1;
+            int retorno = 0;
+            int index = 0;
             
-            for ( int index = 0; index < cadenaOrigen.Length; index++ )
+            if ( cadenaOrigen != cadenaObjetivo )
             {
-                for (int objIndex = 0; objIndex < cadenaObjetivo.Length; objIndex++)
+                while ( index != cadenaOrigen.Length && index != cadenaObjetivo.Length)
                 {
-                    if (cadenaOrigen[index] == cadenaObjetivo[objIndex])
-                    {
-                        retorno = 0;
-                    }
-                    else if (cadenaOrigen[index] > cadenaObjetivo[objIndex])
+                    if (cadenaOrigen[index] > cadenaObjetivo[index])
                     {
                         retorno = 1;
                         index = cadenaOrigen.Length;
                         break;
                     }
-                    else if (cadenaOrigen[index] < cadenaObjetivo[objIndex])
+                    else if (cadenaOrigen[index] < cadenaObjetivo[index])
                     {
                         retorno = -1;
                         index = cadenaOrigen.Length;
                         break;
                     }
+                    index++;
+                }
+
+                if (retorno == 0 && cadenaOrigen.Length > cadenaObjetivo.Length)
+                {
+                    retorno = 1;
+                }
+                else if  (retorno == 0 && cadenaOrigen.Length < cadenaObjetivo.Length )
+                {
+                    retorno = -1;
                 }
             }
+
             return retorno;
         }
 

@@ -9,7 +9,6 @@ C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05.Entidades\o
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05.Entidades\bin\Debug\netstandard2.0\Clase_05.Entidades.deps.json
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05.Entidades\bin\Debug\netstandard2.0\Clase_05.Entidades.dll
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05.Entidades\bin\Debug\netstandard2.0\Clase_05.Entidades.pdb
-C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05.Entidades\obj\Debug\netstandard2.0\Clase_05.Entidades.csprojAssemblyReference.cache
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05.Entidades\obj\Debug\netstandard2.0\Clase_05.Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05.Entidades\obj\Debug\netstandard2.0\Clase_05.Entidades.AssemblyInfoInputs.cache
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_05.Entidades\obj\Debug\netstandard2.0\Clase_05.Entidades.AssemblyInfo.cs

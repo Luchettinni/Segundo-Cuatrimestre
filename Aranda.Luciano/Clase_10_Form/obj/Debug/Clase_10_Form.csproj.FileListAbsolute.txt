@@ -1,0 +1,17 @@
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\bin\Debug\Clase_10_Form.exe.config
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\bin\Debug\Clase_10_Form.exe
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\bin\Debug\Clase_10_Form.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\obj\Debug\Clase_10_Form.csprojAssemblyReference.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\obj\Debug\Clase_10_Form.Form1.resources
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\obj\Debug\Clase_10_Form.Properties.Resources.resources
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\obj\Debug\Clase_10_Form.csproj.GenerateResource.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\obj\Debug\Clase_10_Form.csproj.CoreCompileInputs.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\obj\Debug\Clase_10_Form.exe
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\obj\Debug\Clase_10_Form.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\obj\Debug\Clase_10_Form.FrmCatedra.resources
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\bin\Debug\Clase_10.Entidades.dll
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\bin\Debug\Clase_10.Entidades.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\obj\Debug\Clase_10_Form.csproj.CopyComplete
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\obj\Debug\Clase_10_Form.FrmAlumno.resources
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\bin\Debug\LuccheTools.dll
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10_Form\bin\Debug\LuccheTools.pdb

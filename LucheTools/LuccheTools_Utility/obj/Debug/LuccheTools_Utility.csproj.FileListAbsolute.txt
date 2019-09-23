@@ -3,8 +3,8 @@ C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools_Utility\bin\De
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools_Utility\bin\Debug\LuccheTools_Utility.pdb
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools_Utility\bin\Debug\LuccheTools.dll
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools_Utility\bin\Debug\LuccheTools.pdb
-C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools_Utility\obj\Debug\LuccheTools_Utility.csprojAssemblyReference.cache
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools_Utility\obj\Debug\LuccheTools_Utility.csproj.CoreCompileInputs.cache
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools_Utility\obj\Debug\LuccheTools_Utility.csproj.CopyComplete
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools_Utility\obj\Debug\LuccheTools_Utility.exe
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools_Utility\obj\Debug\LuccheTools_Utility.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools_Utility\obj\Debug\LuccheTools_Utility.csprojAssemblyReference.cache

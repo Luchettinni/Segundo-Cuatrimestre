@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_10", "Clase_10\Clase_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuccheTools_Utility", "..\LucheTools\LuccheTools_Utility\LuccheTools_Utility.csproj", "{0C7C1EC3-27B7-4225-BC58-E0582A031D39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_06.Entidades", "Clase_06.Entidades\Clase_06.Entidades.csproj", "{8E2E05A6-618E-4BB2-ACE8-60CE5FFA4480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_10_Form", "Clase_10_Form\Clase_10_Form.csproj", "{75EB9C2F-8988-476C-A4D0-EF69F65D1738}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{0C7C1EC3-27B7-4225-BC58-E0582A031D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C7C1EC3-27B7-4225-BC58-E0582A031D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C7C1EC3-27B7-4225-BC58-E0582A031D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E2E05A6-618E-4BB2-ACE8-60CE5FFA4480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2E05A6-618E-4BB2-ACE8-60CE5FFA4480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2E05A6-618E-4BB2-ACE8-60CE5FFA4480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2E05A6-618E-4BB2-ACE8-60CE5FFA4480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75EB9C2F-8988-476C-A4D0-EF69F65D1738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EB9C2F-8988-476C-A4D0-EF69F65D1738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EB9C2F-8988-476C-A4D0-EF69F65D1738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EB9C2F-8988-476C-A4D0-EF69F65D1738}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

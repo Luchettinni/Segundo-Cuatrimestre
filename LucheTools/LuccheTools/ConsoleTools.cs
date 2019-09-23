@@ -72,7 +72,7 @@ namespace LuccheTools
                 retorno = string.Concat(retorno, barrierType);
             }
 
-            Console.Write(retorno);
+            Console.Write(retorno + "\n");
         }
 
         
@@ -132,13 +132,13 @@ namespace LuccheTools
         private static void ShowMenu(string firstTitle, string secondTitle, string[] options, string userInputMessage)
         {
             MessageBarrier("|", 80);
-            Console.Write("\n||||| {0} |||||", firstTitle.PadRight(23));
+            Console.Write("||||| {0} |||||", firstTitle.PadRight(23));
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("{0}", secondTitle.PadRight(41, '|') );
             Console.ResetColor();
             Console.Write("|||||\n".PadLeft(2) );
             MessageBarrier("|", 80);
-            Console.Write("\n||- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n");
+            Console.Write("||- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n");
             AddTextLine(options);
             Console.Write("||- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n");
             Console.Write("||\n|| {0}", userInputMessage);

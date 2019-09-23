@@ -4,3 +4,12 @@ C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\o
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.dll
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.pdb
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.csprojAssemblyReference.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\bin\Debug\Clase_10.Entidades.dll
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\bin\Debug\Clase_10.Entidades.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.dll
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\bin\Debug\LuccheTools.dll
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\bin\Debug\LuccheTools.pdb
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.csprojAssemblyReference.cache
+C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.csproj.CopyComplete

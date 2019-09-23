@@ -4,3 +4,11 @@
     Segundo,
     Final
 }
+
+public enum ETipoOrdenamiento
+{
+    LegajoAscendente,
+    LegajoDescendente,
+    ApellidoAscendente,
+    ApellidoDescendente
+}

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LuccheTools;
 
 namespace Clase_10.Entidades
 {
@@ -42,35 +43,38 @@ namespace Clase_10.Entidades
 
         public static string Mostrar(Alumno a)
         {
-            return "Nombre: " + a.nombre.PadRight(15) + " Apellido: " + a.apellido.PadRight(15) + " Legajo: " + a.legajo;
+            return "Nombre: " + a.nombre.PadRight(15) + " Apellido: " + a.apellido.PadRight(15) + " Legajo: " + a.legajo.ToString().PadLeft(4, '0') + " Examen: " + a.examen;
         }
 
-        public static int OrdernarPorApellido(Alumno a, Alumno b) // HACER LUCHETOOLS CON ESTO
+        public static int OrdernarPorApellidoAsc(Alumno a, Alumno b)
         {
+            return string.Compare(a.apellido, b.apellido);
+        }
 
-            int index = 0;
+        public static int OrdernarPorApellidoDes(Alumno a, Alumno b)
+        {
+            return -1 * OrdernarPorApellidoAsc(a, b);
+        }
+
+        public static int OrdernarPorLejagoAsc(Alumno a, Alumno b)
+        {
             int retorno = 0;
 
-            while ( !Object.Equals(index, a.apellido.Length))
+            if ( a.legajo > b.legajo )
             {
-                if (Object.Equals(a.apellido[index], b.apellido[index]))
-                {
-                    index++;
-                }
-                else if (a.apellido[index] > b.apellido[index])
-                {
-                    retorno = 1;
-                    break;
-                }
-                else if (a.apellido[index] < b.apellido[index])
-                {
-                    retorno = -1;
-                    break;
-                }
+                retorno = 1;
+            }
+            else if ( a.legajo < b.legajo )
+            {
+                retorno = -1;
             }
 
             return retorno;
+        }
 
+        public static int OrdernarPorLejagoDes(Alumno a, Alumno b)
+        {
+            return -1 * OrdernarPorLejagoAsc(a,b);
         }
 
         #endregion
