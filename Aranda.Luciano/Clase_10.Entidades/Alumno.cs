@@ -43,7 +43,8 @@ namespace Clase_10.Entidades
 
         public static string Mostrar(Alumno a)
         {
-            return "Nombre: " + a.nombre.PadRight(15) + " Apellido: " + a.apellido.PadRight(15) + " Legajo: " + a.legajo.ToString().PadLeft(4, '0') + " Examen: " + a.examen;
+            string retorno = "Nombre: " + a.nombre.PadRight(15) + " Apellido: " + a.apellido.PadRight(15) + " Legajo: " + a.legajo.ToString().PadLeft(4, '0') + " Examen: " + a.examen + "\n";
+            return retorno;
         }
 
         public static int OrdernarPorApellidoAsc(Alumno a, Alumno b)

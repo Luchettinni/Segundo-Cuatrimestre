@@ -56,7 +56,7 @@
             this.txtNombre.Location = new System.Drawing.Point(25, 40);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(189, 20);
-            this.txtNombre.TabIndex = 7;
+            this.txtNombre.TabIndex = 1;
             // 
             // btnAceptar
             // 
@@ -70,7 +70,7 @@
             this.btnAceptar.Location = new System.Drawing.Point(25, 300);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(85, 25);
-            this.btnAceptar.TabIndex = 11;
+            this.btnAceptar.TabIndex = 5;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = false;
             this.btnAceptar.Click += new System.EventHandler(this.BtnAceptar_Click);
@@ -79,6 +79,7 @@
             // 
             this.cmbTipoDeExamen.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTipoDeExamen.FormattingEnabled = true;
+            this.cmbTipoDeExamen.ItemHeight = 13;
             this.cmbTipoDeExamen.Location = new System.Drawing.Point(25, 205);
             this.cmbTipoDeExamen.Name = "cmbTipoDeExamen";
             this.cmbTipoDeExamen.Size = new System.Drawing.Size(189, 21);
@@ -90,7 +91,7 @@
             this.txtApellido.Location = new System.Drawing.Point(25, 95);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(189, 20);
-            this.txtApellido.TabIndex = 13;
+            this.txtApellido.TabIndex = 2;
             // 
             // label2
             // 
@@ -108,7 +109,7 @@
             this.txtLegajo.Location = new System.Drawing.Point(25, 150);
             this.txtLegajo.Name = "txtLegajo";
             this.txtLegajo.Size = new System.Drawing.Size(189, 20);
-            this.txtLegajo.TabIndex = 15;
+            this.txtLegajo.TabIndex = 3;
             // 
             // label3
             // 
@@ -143,7 +144,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(129, 300);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(85, 25);
-            this.btnCancelar.TabIndex = 18;
+            this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);

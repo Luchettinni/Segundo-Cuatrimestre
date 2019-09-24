@@ -69,11 +69,14 @@
             // lbxAlumnos
             // 
             this.lbxAlumnos.BackColor = System.Drawing.Color.LightGray;
+            this.lbxAlumnos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbxAlumnos.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbxAlumnos.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.lbxAlumnos.FormattingEnabled = true;
+            this.lbxAlumnos.HorizontalExtent = 50;
+            this.lbxAlumnos.HorizontalScrollbar = true;
             this.lbxAlumnos.Location = new System.Drawing.Point(35, 70);
             this.lbxAlumnos.Name = "lbxAlumnos";
-            this.lbxAlumnos.Size = new System.Drawing.Size(530, 173);
+            this.lbxAlumnos.Size = new System.Drawing.Size(530, 171);
             this.lbxAlumnos.TabIndex = 3;
             // 
             // btnModificar

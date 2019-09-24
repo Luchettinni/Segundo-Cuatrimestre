@@ -36,43 +36,32 @@ namespace Clase_10_Form
             if (windowAlumno.DialogResult == DialogResult.OK )
             {
                 listaDeAlumnos.Add(windowAlumno.Alumno);
-                ListaDeAlumnos(listaDeAlumnos);
+                ActualizarListadoAlumnos(listaDeAlumnos, cmbOrdenamiento.Text);
             } 
         }
 
-        private void ListaDeAlumnos(List<Alumno> alumnos)
-        {
-            OrdenamientoDeListaDeAlumnos(cmbOrdenamiento.Text, alumnos);
-            lbxAlumnos.Items.Clear();
-
-            foreach (Alumno alumno in alumnos)
-            {
-                lbxAlumnos.Items.Add(Alumno.Mostrar(alumno));
-            }
-        }
-
-        private void OrdenamientoDeListaDeAlumnos(string ordenamiento, List<Alumno> lista)
+        private void ActualizarListadoAlumnos(List<Alumno> alumnos, string ordenamiento)
         {
             switch (ordenamiento)
             {
                 case "LegajoAscendente":
                     {
-                        lista.Sort(Alumno.OrdernarPorLejagoAsc);
+                        alumnos.Sort(Alumno.OrdernarPorLejagoAsc);
                         break;
                     }
                 case "LegajoDescendente":
                     {
-                        lista.Sort(Alumno.OrdernarPorLejagoDes);
+                        alumnos.Sort(Alumno.OrdernarPorLejagoDes);
                         break;
                     }
                 case "ApellidoAscendente":
                     {
-                        lista.Sort(Alumno.OrdernarPorApellidoAsc);
+                        alumnos.Sort(Alumno.OrdernarPorApellidoAsc);
                         break;
                     }
                 case "ApellidoDescendente":
                     {
-                        lista.Sort(Alumno.OrdernarPorApellidoDes);
+                        alumnos.Sort(Alumno.OrdernarPorApellidoDes);
                         break;
                     }
                 default:
@@ -80,11 +69,18 @@ namespace Clase_10_Form
                         break;
                     }
             }
+
+            lbxAlumnos.Items.Clear();
+
+            foreach (Alumno alumno in alumnos)
+            {
+                lbxAlumnos.Items.Add( Alumno.Mostrar(alumno) );
+            }
         }
 
         private void CmbOrdenamiento_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ListaDeAlumnos(listaDeAlumnos);
+            ActualizarListadoAlumnos(listaDeAlumnos, cmbOrdenamiento.Text);
         }
     }
 }
