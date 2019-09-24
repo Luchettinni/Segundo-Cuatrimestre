@@ -9,3 +9,4 @@ C:\Users\alumno\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools\obj\Debug\Lu
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools\obj\Debug\LuccheTools.dll
 C:\Users\alumno\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools\obj\Debug\LuccheTools.pdb
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools\obj\Debug\LuccheTools.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\LucheTools\LuccheTools\obj\Debug\LuccheTools.csprojAssemblyReference.cache

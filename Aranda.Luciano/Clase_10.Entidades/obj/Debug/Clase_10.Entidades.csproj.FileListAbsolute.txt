@@ -13,3 +13,6 @@ C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\bin
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\bin\Debug\LuccheTools.pdb
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.csprojAssemblyReference.cache
 C:\Users\Apyr\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.csproj.CopyComplete
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\bin\Debug\LuccheTools.dll
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\bin\Debug\LuccheTools.pdb
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\Aranda.Luciano\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.csproj.CopyComplete

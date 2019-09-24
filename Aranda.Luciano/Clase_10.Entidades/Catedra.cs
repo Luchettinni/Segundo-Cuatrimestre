@@ -81,5 +81,17 @@ namespace Clase_10.Entidades
         {
             return c.alumnos.IndexOf(a);
         }
+
+        public override string ToString()
+        {
+            string retorno = "";
+
+            foreach ( Alumno alumno in this.alumnos )
+            {
+                retorno = string.Concat(retorno, alumno);
+            }
+
+            return retorno;
+        }
     }
 }

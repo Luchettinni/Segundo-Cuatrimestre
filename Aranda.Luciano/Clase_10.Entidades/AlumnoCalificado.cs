@@ -22,9 +22,15 @@ namespace Clase_10.Entidades
             
         }
 
-        public string Mostrar()
+        public override string Mostrar()
         {
-            return Alumno.Mostrar(this) + " Nota: " + this.nota;
+            string retorno = "Nombre: " + this.nombre.PadRight(15) + " Apellido: " + this.apellido.PadRight(15) + " Legajo: " + this.legajo.ToString().PadLeft(4, '0') + " Examen: " + this.examen + " Nota:" + this.nota + "\n";
+            return retorno;
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
     }
 }

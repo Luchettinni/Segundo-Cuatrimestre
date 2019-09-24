@@ -29,7 +29,7 @@ namespace Clase_10_Form
             this.cmbTipoDeExamen.SelectedIndex = 2;
         }
 
-        private void BtnAceptar_Click(object sender, EventArgs e)
+        protected virtual void BtnAceptar_Click(object sender, EventArgs e)
         {
 
             ETipoExamen examen = (ETipoExamen)cmbTipoDeExamen.SelectedItem;

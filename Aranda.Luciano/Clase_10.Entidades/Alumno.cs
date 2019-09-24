@@ -41,9 +41,9 @@ namespace Clase_10.Entidades
 
         #region Metodos
 
-        public static string Mostrar(Alumno a)
+        public virtual string Mostrar()
         {
-            string retorno = "Nombre: " + a.nombre.PadRight(15) + " Apellido: " + a.apellido.PadRight(15) + " Legajo: " + a.legajo.ToString().PadLeft(4, '0') + " Examen: " + a.examen + "\n";
+            string retorno = "Nombre: " + this.nombre.PadRight(15) + " Apellido: " + this.apellido.PadRight(15) + " Legajo: " + this.legajo.ToString().PadLeft(4, '0') + " Examen: " + this.examen + "\n";
             return retorno;
         }
 
@@ -111,6 +111,15 @@ namespace Clase_10.Entidades
             }
 
             return retorno;
+        }
+
+        #endregion
+
+        #region Polimorfismo
+
+        public override string ToString()
+        {
+            return Mostrar();
         }
 
         #endregion

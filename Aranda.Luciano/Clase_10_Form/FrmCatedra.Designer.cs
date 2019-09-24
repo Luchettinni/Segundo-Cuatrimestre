@@ -57,6 +57,9 @@
             // 
             // cmbOrdenamiento
             // 
+            this.cmbOrdenamiento.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbOrdenamiento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOrdenamiento.FormattingEnabled = true;
             this.cmbOrdenamiento.Location = new System.Drawing.Point(35, 249);
@@ -68,9 +71,12 @@
             // 
             // lbxAlumnos
             // 
+            this.lbxAlumnos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbxAlumnos.BackColor = System.Drawing.Color.LightGray;
             this.lbxAlumnos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbxAlumnos.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbxAlumnos.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbxAlumnos.ForeColor = System.Drawing.Color.SaddleBrown;
             this.lbxAlumnos.HorizontalExtent = 50;
             this.lbxAlumnos.HorizontalScrollbar = true;
@@ -81,6 +87,9 @@
             // 
             // btnModificar
             // 
+            this.btnModificar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnModificar.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnModificar.FlatAppearance.BorderSize = 0;
             this.btnModificar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
@@ -96,6 +105,9 @@
             // 
             // btnCalificar
             // 
+            this.btnCalificar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCalificar.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnCalificar.FlatAppearance.BorderSize = 0;
             this.btnCalificar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
@@ -108,9 +120,13 @@
             this.btnCalificar.TabIndex = 1;
             this.btnCalificar.Text = "Calificar";
             this.btnCalificar.UseVisualStyleBackColor = false;
+            this.btnCalificar.Click += new System.EventHandler(this.btnCalificar_Click);
             // 
             // btnAgregar
             // 
+            this.btnAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAgregar.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnAgregar.FlatAppearance.BorderSize = 0;
             this.btnAgregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
@@ -138,13 +154,19 @@
             // 
             // lbxAlumnosCalificados
             // 
+            this.lbxAlumnosCalificados.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbxAlumnosCalificados.BackColor = System.Drawing.Color.LightGray;
+            this.lbxAlumnosCalificados.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbxAlumnosCalificados.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbxAlumnosCalificados.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.lbxAlumnosCalificados.FormattingEnabled = true;
+            this.lbxAlumnosCalificados.HorizontalExtent = 50;
+            this.lbxAlumnosCalificados.HorizontalScrollbar = true;
             this.lbxAlumnosCalificados.Location = new System.Drawing.Point(35, 41);
             this.lbxAlumnosCalificados.Name = "lbxAlumnosCalificados";
-            this.lbxAlumnosCalificados.Size = new System.Drawing.Size(530, 212);
-            this.lbxAlumnosCalificados.TabIndex = 3;
+            this.lbxAlumnosCalificados.Size = new System.Drawing.Size(530, 210);
+            this.lbxAlumnosCalificados.TabIndex = 5;
             // 
             // FrmCatedra
             // 

@@ -154,7 +154,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(238, 351);
+            this.ClientSize = new System.Drawing.Size(238, 349);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -175,14 +175,14 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Button btnAceptar;
-        private System.Windows.Forms.ComboBox cmbTipoDeExamen;
-        private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtLegajo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnCancelar;
+        protected System.Windows.Forms.TextBox txtNombre;
+        protected System.Windows.Forms.TextBox txtApellido;
+        protected System.Windows.Forms.TextBox txtLegajo;
+        protected System.Windows.Forms.ComboBox cmbTipoDeExamen;
     }
 }

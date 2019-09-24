@@ -14,7 +14,7 @@ namespace Clase_10_Form
     public partial class FrmCatedra : Form
     {
         private Catedra catedra = new Catedra();
-        private List<Alumno> listaDeAlumnos = new List<Alumno>();
+        private List<AlumnoCalificado> listaDeAlumnos = new List<AlumnoCalificado>();
         
         public FrmCatedra()
         {
@@ -35,33 +35,36 @@ namespace Clase_10_Form
 
             if (windowAlumno.DialogResult == DialogResult.OK )
             {
-                listaDeAlumnos.Add(windowAlumno.Alumno);
-                ActualizarListadoAlumnos(listaDeAlumnos, cmbOrdenamiento.Text);
+                if ( catedra + windowAlumno.Alumno )
+                {
+                    ActualizarListadoAlumnos(catedra, cmbOrdenamiento.Text);
+                }
+                
             } 
         }
 
-        private void ActualizarListadoAlumnos(List<Alumno> alumnos, string ordenamiento)
+        private void ActualizarListadoAlumnos(Catedra catedra, string ordenamiento)
         {
             switch (ordenamiento)
             {
                 case "LegajoAscendente":
                     {
-                        alumnos.Sort(Alumno.OrdernarPorLejagoAsc);
+                        catedra.Alumnos.Sort(Alumno.OrdernarPorLejagoAsc);
                         break;
                     }
                 case "LegajoDescendente":
                     {
-                        alumnos.Sort(Alumno.OrdernarPorLejagoDes);
+                        catedra.Alumnos.Sort(Alumno.OrdernarPorLejagoDes);
                         break;
                     }
                 case "ApellidoAscendente":
                     {
-                        alumnos.Sort(Alumno.OrdernarPorApellidoAsc);
+                        catedra.Alumnos.Sort(Alumno.OrdernarPorApellidoAsc);
                         break;
                     }
                 case "ApellidoDescendente":
                     {
-                        alumnos.Sort(Alumno.OrdernarPorApellidoDes);
+                        catedra.Alumnos.Sort(Alumno.OrdernarPorApellidoDes);
                         break;
                     }
                 default:
@@ -72,15 +75,51 @@ namespace Clase_10_Form
 
             lbxAlumnos.Items.Clear();
 
-            foreach (Alumno alumno in alumnos)
+            foreach (Alumno alumno in this.catedra.Alumnos)
             {
-                lbxAlumnos.Items.Add( Alumno.Mostrar(alumno) );
+                lbxAlumnos.Items.Add(alumno.ToString());
             }
+
+            lbxAlumnosCalificados.Items.Clear();
+
+            foreach (AlumnoCalificado alumno in this.listaDeAlumnos)
+            {
+                lbxAlumnosCalificados.Items.Add( alumno.ToString() );
+            }
+
+            //lbxAlumnos.Items.Add( catedra.ToString()); // re rancio esto xd
         }
 
         private void CmbOrdenamiento_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ActualizarListadoAlumnos(listaDeAlumnos, cmbOrdenamiento.Text);
+            ActualizarListadoAlumnos(catedra, cmbOrdenamiento.Text);
+        }
+
+        private void btnCalificar_Click(object sender, EventArgs e)
+        {
+            if ( lbxAlumnos.SelectedItem == null )
+            {
+                MessageBox.Show("Seleccione un alumno de la lista a modificar...");
+            }
+            else
+            {
+
+
+
+                frmAlumnoCalificado windowAlumnoCalificado = new frmAlumnoCalificado( catedra.Alumnos[lbxAlumnos.SelectedIndex] );
+                windowAlumnoCalificado.ShowDialog();
+
+                if (windowAlumnoCalificado.DialogResult == DialogResult.OK)
+                {
+                    if ( catedra - (catedra.Alumnos[lbxAlumnos.SelectedIndex]) )
+                    {
+                        
+                        listaDeAlumnos.Add(windowAlumnoCalificado.AlumnoCalificado);
+                        ActualizarListadoAlumnos(catedra, cmbOrdenamiento.Text);
+                    }
+
+                }
+            }
         }
     }
 }
