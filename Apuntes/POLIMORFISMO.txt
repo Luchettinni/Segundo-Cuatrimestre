@@ -1,0 +1,17 @@
+POLIMORFISMO.
+
+miembros virtuales
+
+- Cualquier clase
+- "tiene" que tener implementacion
+- existir en la relacion de herencia
+- "puede" sobreescribir el miembro (override)
+- la implementacion se resuelve en tiempo de ejecucion
+
+miembros abstractos
+
+- clases abstractas
+- "no" tienen implementacion en la clase base
+- existe relacion de herencia
+- "debe" sobreescribir miembro abstracto (override)
+- solo pueden ser contenidos en clases abstractas

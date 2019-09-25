@@ -2,5 +2,5 @@ git status
 git add .
 git config --global user.email "LuchettinniDev@outlook.com"
 git config --global user.name "Luchettinni"
-git commit -m "saved" 
+git commit -m "Martes que viene parcial de programacion" 
 git push origin master

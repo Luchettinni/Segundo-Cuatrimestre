@@ -34,9 +34,9 @@ namespace Clase_10_Form
 
         protected override void BtnAceptar_Click(object sender, EventArgs e)
         {
+            double nota;
             ETipoExamen examen = (ETipoExamen)cmbTipoDeExamen.SelectedItem;
             int legajo;
-            double nota;
 
             if (!(int.TryParse(txtLegajo.Text, out legajo)))
             {
@@ -44,7 +44,7 @@ namespace Clase_10_Form
                 this.DialogResult = DialogResult.Cancel;
             }
 
-            if (!(double.TryParse(txtLegajo.Text, out nota)))
+            if (!(double.TryParse(textBox1.Text, out nota)))
             {
                 MessageBox.Show("Ingrese una nota valida (Decimal)");
                 this.DialogResult = DialogResult.Cancel;

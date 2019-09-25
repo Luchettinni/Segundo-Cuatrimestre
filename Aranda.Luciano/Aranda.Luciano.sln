@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29306.81
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_03", "Clase_03\Clase_03.csproj", "{70D2CB73-F19D-4CA6-B0C8-15D556F6C831}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_06.Entidades", "Clase_06.Entidades\Clase_06.Entidades.csproj", "{8E2E05A6-618E-4BB2-ACE8-60CE5FFA4480}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_10_Form", "Clase_10_Form\Clase_10_Form.csproj", "{75EB9C2F-8988-476C-A4D0-EF69F65D1738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaPolimorfismo", "CentralitaPolimorfismo\CentralitaPolimorfismo.csproj", "{06565124-226A-4BCB-9D38-0F099F4DCBE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{75EB9C2F-8988-476C-A4D0-EF69F65D1738}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75EB9C2F-8988-476C-A4D0-EF69F65D1738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75EB9C2F-8988-476C-A4D0-EF69F65D1738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06565124-226A-4BCB-9D38-0F099F4DCBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06565124-226A-4BCB-9D38-0F099F4DCBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06565124-226A-4BCB-9D38-0F099F4DCBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06565124-226A-4BCB-9D38-0F099F4DCBE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
