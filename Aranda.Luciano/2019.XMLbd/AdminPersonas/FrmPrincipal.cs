@@ -20,16 +20,40 @@ namespace AdminPersonas
     {
         private List<Persona> lista;
         SqlConnection sqlConnection;
+        DataTable tablaPersonas;
 
         public FrmPrincipal()
         {
             InitializeComponent();
 
+            
             this.IsMdiContainer = true;
             this.WindowState = FormWindowState.Maximized;
             this.lista = new List<Persona>();
             this.sqlConnection = new SqlConnection(Properties.Settings.Default.conexion);
 
+            sqlConnection.Open();
+            tablaPersonas = new DataTable("Personas");
+            cargarDataTable();
+            
+
+        }
+
+        private void cargarDataTable()
+        {
+            SqlCommand sqlCommand = new SqlCommand();
+            sqlCommand.Connection = sqlConnection;
+            sqlCommand.CommandType = CommandType.Text;
+            sqlCommand.CommandText = "SELECT * FROM[personas_bd].[dbo].[personas]"; //"SELECT TOP 1000[id],[nombre],[apellido],[edad]FROM[personas_bd].[dbo].[personas]"; // con el "*" le digo que selecciones todas las columnas SELECT * FROM pesonas.
+            SqlDataReader dataReader = sqlCommand.ExecuteReader();
+            
+            tablaPersonas.Load(dataReader);
+            dataReader.Close();
+            sqlConnection.Close();
+
+            MessageBox.Show("Tabla cargada con exito");
+
+            
         }
 
         private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)
