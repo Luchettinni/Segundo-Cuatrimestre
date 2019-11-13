@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\2019.XMLbd\Entidades.Clase25\bin\Debug\Entidades.Clase25.dll
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\2019.XMLbd\Entidades.Clase25\bin\Debug\Entidades.Clase25.pdb
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\2019.XMLbd\Entidades.Clase25\obj\Debug\Entidades.Clase25.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\2019.XMLbd\Entidades.Clase25\obj\Debug\Entidades.Clase25.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\2019.XMLbd\Entidades.Clase25\obj\Debug\Entidades.Clase25.dll
+C:\Users\alumno\Desktop\Segundo-Cuatrimestre\2019.XMLbd\Entidades.Clase25\obj\Debug\Entidades.Clase25.pdb
